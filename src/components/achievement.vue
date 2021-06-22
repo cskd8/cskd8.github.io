@@ -7,7 +7,7 @@
       <div class="achievement">
           <h1>Achievements</h1>
           <ul>
-            <li><a href="https://icttoracon.net/archives/8751">ICTSC2020</a> - 本戦出場、8位</li>
+            <li><a href="https://icttoracon.net/archives/8667">ICTSC2020</a> - 本戦出場、8位</li>
           </ul>
           <br>
           <br>
