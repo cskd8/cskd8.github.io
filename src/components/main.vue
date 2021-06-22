@@ -10,6 +10,7 @@
           <ul>
             <li><router-link to="/profile"><div class="item"><div class="link">Profile</div></div></router-link></li>
             <li><router-link to="/works"><div class="item"><div class="link">Works</div></div></router-link></li>
+            <li><router-link to="/achievements"><div class="item"><div class="link">Achievements</div></div></router-link></li>
             </ul>
       </div>
     </div>

@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import main from '@/components/main'
 import work from '@/components/work'
 import profile from '@/components/profile'
+import achievement from '@/components/achievement'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
             path: '/profile',
             name: 'profile',
             component: profile
+        },
+        {
+            path: '/achievements',
+            name: 'achievements',
+            component: achievement
         }
     ]
 })
