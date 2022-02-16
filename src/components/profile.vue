@@ -30,9 +30,9 @@
         </ul>
         <br />
         <br />
-        <router-link to="/"
-          ><div class="item"><div class="link">Home</div></div></router-link
-        >
+        <div class="item"><router-link to="/"
+          ><div class="link">Home</div></router-link
+        ></div>
       </div>
     </div>
   </div>
