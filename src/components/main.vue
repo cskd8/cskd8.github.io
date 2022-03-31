@@ -5,7 +5,7 @@
     <div class="third"></div>
     <div class="txt">
       <div class="hello">
-          <h1>xxpoxx's portfolio</h1>
+          <h1>hirocy's portfolio</h1>
           <br>
           <ul>
             <li><router-link to="/profile"><div class="item"><div class="link">Profile</div></div></router-link></li>

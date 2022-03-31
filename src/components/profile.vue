@@ -6,7 +6,7 @@
     <div class="txt">
       <div class="profile">
         <h1>Profile</h1>
-        <h2>xxpoxx/杉山 祐紀</h2>
+        <h2>hirocy/杉山 祐紀</h2>
         <ul>
           <li>
             TokyoTech, School of Computing, Department of Computer Science B4
@@ -16,7 +16,7 @@
         </ul>
         <br />
         <h3>Introduction</h3>
-        競技プログラミングとWebプログラミング(サーバーサイド)をやっています。
+        Webプログラミング(サーバーサイド)をやっています。
         <br />
         <h3>Links</h3>
         <ul>
