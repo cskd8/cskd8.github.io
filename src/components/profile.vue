@@ -20,7 +20,7 @@
         <br />
         <h3>Links</h3>
         <ul>
-          <li><a href="https://twitter.com/cskd8">Twitter</a></li>
+          <li><a href="https://twitter.com/hir0cy">Twitter</a></li>
           <li>
             <a href="https://www.facebook.com/profile.php?id=100044726481100"
               >Facebook</a
