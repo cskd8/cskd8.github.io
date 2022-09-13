@@ -23,7 +23,7 @@
 
 <script>
 export default {
-  name: 'work',
+  name: 'Works',
   data () {
     return {
       message: 'Works'

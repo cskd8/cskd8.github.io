@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  name: 'main',
+  name: 'Main',
   data () {
     return {
       msg: 'Hello'
@@ -58,7 +58,6 @@ export default {
   animation: hover .6s forwards;
   color: #fff;
 }
-
 @keyframes hover {
   0%, 100% {
     color: #333;
@@ -145,7 +144,6 @@ a {
         90% {opacity: 0.8;}
         100% {opacity: 1.0;}
       }
-
     .second {
       animation: second 10s infinite; animation-delay: 2s;
       background: linear-gradient(#19eaa6, #00a1f0);
@@ -164,7 +162,6 @@ a {
         90% {opacity: 0.2;}
         100% {opacity: 0;}
       }
-
     .third {
       animation: third 10s infinite;
       animation-delay: 8s;
@@ -184,7 +181,6 @@ a {
         90% {opacity: 0.2;}
         100% {opacity: 0;}
       }
-
     .txt {
       margin-top: calc(50vh - 150px);
       position: absolute;

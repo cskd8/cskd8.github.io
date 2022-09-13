@@ -40,7 +40,7 @@
 
 <script>
 export default {
-  name: 'profile',
+  name: 'Profile',
   data () {
     return {
       message: 'Profile'

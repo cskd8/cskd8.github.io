@@ -24,10 +24,10 @@
 
 <script>
 export default {
-  name: 'achievements',
+  name: 'Achievements',
   data () {
     return {
-      message: 'Achievements'
+      message: 'Achievements',
     }
   }
 }
