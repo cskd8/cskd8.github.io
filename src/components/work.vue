@@ -8,7 +8,7 @@
           <h1>Works</h1>
           <ul>
             <li><a href="https://TrapDispel.trap.games">TrapDispel</a> - オンライン対戦型タワーディフェンスゲーム</li>
-            <li>Jomon - 部内会計支援システム</li>
+            <li><a href="https://github.com/traPtitech/Jomon">Jomon</a> - 部内会計支援システム</li>
             <li><a href="https://trap.jp/post/1308/">CPCTF2021</a> - 競プロとCTFの体験会2021スコアサーバー</li>
           </ul>
           <br>
