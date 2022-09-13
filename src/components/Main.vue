@@ -22,7 +22,6 @@ export default {
   name: 'Main',
   data () {
     return {
-      msg: 'Hello'
     }
   }
 }
