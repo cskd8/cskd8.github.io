@@ -7,9 +7,9 @@
       <div class="achievement">
           <h1>Achievements</h1>
           <ul>
-            <li><a href="https://icttoracon.net/archives/8667">ICTSC2020</a> - 本戦出場、8位</li>
+            <li><a href="https://icttoracon.net/archives/8667">ICTSC2020</a> - 本選出場、8位</li>
             <li>ICTSC2021 夏の陣 - 8位</li>
-            <li><a href="https://isucon.net/archives/56021237.html">ISUCON11</a> - 予選学生3位、全体35位 本戦出場</li>
+            <li><a href="https://isucon.net/archives/56021237.html">ISUCON11</a> - 予選学生3位、全体35位 本選出場</li>
             <li>ICTSC2021 冬の陣 - 3位</li>
           </ul>
           <br>
