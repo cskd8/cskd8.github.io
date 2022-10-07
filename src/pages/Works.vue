@@ -4,30 +4,35 @@
     <div class="second"></div>
     <div class="third"></div>
     <div class="txt">
-      <div class="achievement">
-          <h1>Achievements</h1>
+      <div class="work">
+          <h1>Works</h1>
           <ul>
-            <li><a href="https://icttoracon.net/archives/8667">ICTSC2020</a> - 本選出場、8位</li>
-            <li>ICTSC2021 夏の陣 - 8位</li>
-            <li><a href="https://isucon.net/archives/56021237.html">ISUCON11</a> - 予選学生3位、全体35位 本選出場</li>
-            <li>ICTSC2021 冬の陣 - 3位</li>
+            <li><a href="https://TrapDispel.trap.games">TrapDispel</a> - オンライン対戦型タワーディフェンスゲーム</li>
+            <li><a href="https://github.com/traPtitech/Jomon">Jomon</a> - 部内会計支援システム</li>
+            <li><a href="https://trap.jp/post/1308/">CPCTF2021</a> - 競プロとCTFの体験会2021スコアサーバー</li>
           </ul>
           <br>
           <br>
-          <div class="item"><router-link to="/"
-            ><div class="link">Home</div></router-link
-          ></div>
+          <router-link to="/">
+            <Button
+              name="Home"
+            />
+          </router-link>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import Button from '@/components/Button.vue'
 export default {
-  name: 'Achievements',
+  components: {
+    Button
+  },
+  name: 'Works',
   data () {
     return {
-      message: 'Achievements',
+      message: 'Works'
     }
   }
 }

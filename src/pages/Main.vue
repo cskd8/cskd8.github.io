@@ -4,21 +4,35 @@
     <div class="second"></div>
     <div class="third"></div>
     <div class="txt">
-      <div class="hello">
-          <h1>hirocy's portfolio</h1>
-          <br>
-          <ul>
-            <li><router-link to="/profile"><div class="item"><div class="link">Profile</div></div></router-link></li>
-            <li><router-link to="/works"><div class="item"><div class="link">Works</div></div></router-link></li>
-            <li><router-link to="/achievements"><div class="item"><div class="link">Achievements</div></div></router-link></li>
-            </ul>
-      </div>
+        <h1>hirocy's portfolio</h1>
+        <br>
+        <ul>
+          <li><router-link to="/profile">
+            <Button
+              name="Profile"
+            />
+          </router-link></li>
+          <li><router-link to="/works">
+            <Button
+              name="Works"
+            />
+          </router-link></li>
+          <li><router-link to="/achievements">
+            <Button
+              name="Achievements"
+            />
+          </router-link></li>
+        </ul>
     </div>
   </div>
 </template>
 
 <script>
+import Button from '@/components/Button.vue'
 export default {
+  components: {
+    Button
+  },
   name: 'Main',
   data () {
     return {
@@ -29,62 +43,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.link::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  content: '';
-  background: #333;
-  transform: scale(0, 1);
-}
-.link:hover::before {
-  animation: hover-in .3s forwards alternate, hover-out .3s .3s forwards alternate;
-}
-.link {
-  position: relative;
-  display: inline-block;
-  padding: .5em 4em;
-  border: 2px solid #333;
-  color: #333;
-  text-align: center;
-  text-decoration: none;
-  transition: .3s;
-}
-.link:hover {
-  animation: hover .6s forwards;
-  color: #fff;
-}
-@keyframes hover {
-  0%, 100% {
-    color: #333;
-  }
-  50% {
-    color: #fff;
-  }
-}
-@keyframes hover-in {
-  0% {
-    transform-origin: left top;
-    transform: scale(0, 1);
-  }
-  100% {
-    transform-origin: left top;
-    transform: scale(1, 1);
-  }
-}
-@keyframes hover-out {
-  0% {
-    transform-origin: right top;
-    transform: scale(1, 1);
-  }
-  100% {
-    transform-origin: right top;
-    transform: scale(0, 1);
-  }
-}
 h1, h2 {
   font-weight: normal;
 }

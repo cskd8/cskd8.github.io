@@ -30,16 +30,22 @@
         </ul>
         <br />
         <br />
-        <div class="item"><router-link to="/"
-          ><div class="link">Home</div></router-link
-        ></div>
+        <router-link to="/">
+          <Button
+            name="Home"
+          />
+        </router-link>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import Button from '@/components/Button.vue'
 export default {
+  components: {
+    Button
+  },
   name: 'Profile',
   data () {
     return {

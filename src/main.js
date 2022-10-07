@@ -1,9 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import Main from './components/Main.vue'
-import Works from './components/Works.vue'
-import Achievements from './components/Achievements.vue'
-import Profile from './components/Profile.vue'
+import Main from './pages/Main.vue'
+import Works from './pages/Works.vue'
+import Achievements from './pages/Achievements.vue'
+import Profile from './pages/Profile.vue'
 import { createRouter, createWebHashHistory } from 'vue-router'
 
 const routes = [

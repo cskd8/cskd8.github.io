@@ -4,29 +4,36 @@
     <div class="second"></div>
     <div class="third"></div>
     <div class="txt">
-      <div class="work">
-          <h1>Works</h1>
+      <div class="achievement">
+          <h1>Achievements</h1>
           <ul>
-            <li><a href="https://TrapDispel.trap.games">TrapDispel</a> - オンライン対戦型タワーディフェンスゲーム</li>
-            <li><a href="https://github.com/traPtitech/Jomon">Jomon</a> - 部内会計支援システム</li>
-            <li><a href="https://trap.jp/post/1308/">CPCTF2021</a> - 競プロとCTFの体験会2021スコアサーバー</li>
+            <li><a href="https://icttoracon.net/archives/8667">ICTSC2020</a> - 本選出場、8位</li>
+            <li>ICTSC2021 夏の陣 - 8位</li>
+            <li><a href="https://isucon.net/archives/56021237.html">ISUCON11</a> - 予選学生3位、全体35位 本選出場</li>
+            <li>ICTSC2021 冬の陣 - 3位</li>
           </ul>
           <br>
           <br>
-          <div class="item"><router-link to="/"
-            ><div class="link">Home</div></router-link
-          ></div>
+          <router-link to="/">
+            <Button
+              name="Home"
+            />
+          </router-link>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import Button from '@/components/Button.vue'
 export default {
-  name: 'Works',
+  components: {
+    Button
+  },
+  name: 'Achievements',
   data () {
     return {
-      message: 'Works'
+      message: 'Achievements',
     }
   }
 }
@@ -34,34 +41,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.link::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  content: '';
-  background: #333;
-  transform: scale(0, 1);
-}
-.link:hover::before {
-  animation: hover-in .3s forwards alternate, hover-out .3s .3s forwards alternate;
-}
-.link {
-  position: relative;
-  display: inline-block;
-  padding: .5em 4em;
-  border: 2px solid #333;
-  color: #333;
-  text-align: center;
-  text-decoration: none;
-  transition: .3s;
-}
-.link:hover {
-  animation: hover .6s forwards;
-}
-
 @keyframes hover {
   0%, 100% {
     color: #333;
