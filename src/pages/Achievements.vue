@@ -11,6 +11,7 @@
             <li>ICTSC2021 夏の陣 - 8位</li>
             <li><a href="https://isucon.net/archives/56021237.html">ISUCON11</a> - 予選学生3位、全体35位 本選出場</li>
             <li>ICTSC2021 冬の陣 - 3位</li>
+            <li><a href="https://www.seccon.jp/2022/seccon_ctf/result_of_seccon_ctf_2022_quals.html">SECCON CTF 2022</a> - 予選国内6位、全体31位 本選出場</li>
           </ul>
           <br>
           <br>
