@@ -7,21 +7,24 @@
         <h1>hirocy's portfolio</h1>
         <br>
         <ul>
-          <li><router-link to="/profile">
+          <li>
             <Button
               name="Profile"
+              to="/profile"
             />
-          </router-link></li>
-          <li><router-link to="/works">
+          </li>
+          <li>
             <Button
               name="Works"
+              to="/works"
             />
-          </router-link></li>
-          <li><router-link to="/achievements">
+          </li>
+          <li>
             <Button
               name="Achievements"
+              to="/achievements"
             />
-          </router-link></li>
+          /li>
         </ul>
     </div>
   </div>

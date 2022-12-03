@@ -30,11 +30,10 @@
         </ul>
         <br />
         <br />
-        <router-link to="/">
-          <Button
-            name="Home"
-          />
-        </router-link>
+        <Button
+          name="Home"
+          to="/"
+        />
       </div>
     </div>
   </div>

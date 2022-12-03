@@ -1,10 +1,19 @@
 <template>
-    <div class="item"><div class="link">{{ name }}</div></div>
+    <div class="item"><router-link :to="to"><div class="link">{{ name }}</div></router-link></div>
 </template>
 
 <script>
 export default {
-  props: ['name'],
+  props: {
+    name: {
+      type: String,
+      required: true
+    },
+    to: {
+      type: String,
+      required: true
+    }
+  },
   name: 'Button',
   data () {
     return {
