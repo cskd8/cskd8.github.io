@@ -24,7 +24,7 @@
               name="Achievements"
               to="/achievements"
             />
-          /li>
+          </li>
         </ul>
     </div>
   </div>
