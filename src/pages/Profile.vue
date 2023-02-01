@@ -27,6 +27,7 @@
             >
           </li>
           <li><a href="https://github.com/cskd8">GitHub</a></li>
+          <li><a href="https://qiita.com/hirocy">Qiita</a></li>
         </ul>
         <br />
         <br />
