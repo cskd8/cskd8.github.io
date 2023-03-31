@@ -9,9 +9,8 @@
         <h2>hirocy/杉山 祐紀</h2>
         <ul>
           <li>
-            TokyoTech, School of Computing, Department of Computer Science B4
+            Backend Engineer
           </li>
-          <li><a href="https://trap.jp/">Digital Creators Club traP</a></li>
           <li>C++/Rust/Go</li>
         </ul>
         <br />
